@@ -1,0 +1,78 @@
+.task-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #1c1c1c; /* Fundo preto */
+    min-height: 100vh; /* Altura mínima para o container */
+}
+
+.task-form {
+    background: #333; /* Fundo escuro para o formulário */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.task-form:hover {
+    transform: translateY(-5px); /* Efeito de elevação suave ao passar o mouse */
+}
+
+.task-form h2 {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 1.8rem;
+    color: white; /* Título branco para contraste */
+}
+
+.task-form input, 
+.task-form select, 
+.task-form button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #444; /* Borda suave para os campos */
+    font-size: 1rem;
+    background-color: #555; /* Fundo escuro nos campos de entrada */
+    color: white; /* Texto branco nos campos de entrada */
+}
+
+.task-form input:focus,
+.task-form select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+.task-form button {
+    background-color: #007bff; /* Botão azul */
+    color: white;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.task-form button:hover {
+    background-color: #0056b3; /* Azul mais escuro no hover */
+}
+
+.view-tasks-button {
+    background-color: #007bff; /* Botão azul para visualizar tarefas */
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.view-tasks-button:hover {
+    background-color: #0056b3; /* Azul mais escuro no hover */
+}

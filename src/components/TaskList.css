@@ -1,0 +1,111 @@
+.task-list-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #1c1c1c; /* Fundo preto */
+    border-radius: 10px; /* Bordas arredondadas para um visual mais suave */
+    color: white; /* Cor do texto branco para contrastar com o fundo escuro */
+}
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #333; /* Cor de fundo escuro para a tabela */
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.task-table th, .task-table td {
+    border: 1px solid #444; /* Borda suave para a tabela */
+    padding: 12px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.task-table th {
+    background-color: #007bff; /* Azul vibrante para o cabeçalho */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.task-table tr:nth-child(even) {
+    background-color: #444; /* Linha alternada em tom mais escuro */
+}
+
+.task-table tr:hover {
+    background-color: #555; /* Efeito de hover para destaque */
+}
+
+.add-task-button {
+    background-color: #007bff; /* Azul vibrante para o botão */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-task-button:hover {
+    background-color: #0056b3; /* Azul mais escuro no hover */
+    transform: translateY(-3px); /* Efeito de "elevação" ao passar o mouse */
+}
+
+.add-task-button:active {
+    transform: translateY(0); /* Retorna ao estado original quando pressionado */
+}
+
+/* Cores para os status */
+.status-aberto {
+    color: rgb(255, 208, 0); /* Verde */
+}
+
+.status-acompanhamento {
+    color: rgb(255, 208, 0); /* Laranja */
+}
+
+.status-desenvolvimento {
+    color: rgb(255, 174, 0); /* Laranja */
+}
+
+.status-aguardando {
+    color: rgb(255, 174, 0); /* Verde */
+}
+
+.status-pendente {
+    color: rgb(255, 174, 0); /* Verde */
+}
+
+.status-analise {
+    color: rgb(255, 174, 0); /* Verde */
+}
+
+.status-resolvido {
+    color: rgb(1, 170, 1); /* Verde */
+}
+
+.status-fechado {
+    color: rgb(1, 170, 1); /* Verde */
+}
+
+/* Estilos para o botão de logout */
+.logout-button {
+    background-color: #dc3545; /* Vermelho */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+.logout-button:hover {
+    background-color: #c82333; /* Vermelho mais escuro ao passar o mouse */
+}
